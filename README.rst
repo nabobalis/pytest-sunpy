@@ -54,9 +54,9 @@ In either case, the plugin will automatically be registered for use with
 Development Status
 ------------------
 
-Questions, bug reports, and feature requests can be submitted on `github`_.
+Questions, bug reports, and feature requests can be submitted on `GitHub`_.
 
-.. _github: https://github.com/sunpy/pytest-sunpy
+.. _GitHub: https://github.com/sunpy/pytest-sunpy
 
 License
 -------
