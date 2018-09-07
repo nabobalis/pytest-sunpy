@@ -44,7 +44,6 @@ setup(
     install_requires=[
         'pytest-astropy',
         'hypothesis',
-        'mock',
         'pytest-cov',
         'pytest-mock',
         'pytest-rerunfailures'
