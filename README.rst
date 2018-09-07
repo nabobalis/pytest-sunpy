@@ -14,14 +14,10 @@ The following dependencies are installed by this package:
 
 * The `pytest-astropy`_ meta-package for testing. This pulls in:
     * The `pytest`_ testing framework for Python.
-    * `pytest-remotedata`_, a ``pytest`` plugin used for controlling access to data
-	  files hosted online.
-	* `pytest-doctestplus`_, a ``pytest`` plugin that provides advanced features
-	  for testing example code in documentation.
-	* `pytest-openfiles`_, a ``pytest`` plugin for detecting file handles that were
-	  inadvertently left open at the end of unit tests.
-	* `pytest-arraydiff`_, a ``pytest`` plugin that enables the generation and
-	  comparison of data arrays produced during unit tests.
+    * `pytest-remotedata`_, a ``pytest`` plugin used for controlling access to data files hosted online.
+    * `pytest-doctestplus`_, a ``pytest`` plugin that provides advanced features for testing example code in documentation.
+    * `pytest-openfiles`_, a ``pytest`` plugin for detecting file handles that were inadvertently left open at the end of unit tests.
+    * `pytest-arraydiff`_, a ``pytest`` plugin that enables the generation and comparison of data arrays produced during unit tests.
 * The `hypothesis`_ framework for property based testing.
 * The `pytest-cov`_ a ``pytest`` plugin that produces coverage reports.
 * The `pytest-mock`_ a ``pytest`` plugin that is a thin-wrapper around the mock package for easier use with py.test.
