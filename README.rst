@@ -46,7 +46,7 @@ It is also possible to install the latest development version from the source re
 
     $ git clone https://github.com/sunpy/pytest-sunpy
     $ cd pytest-sunpy
-    $ python ./setup.py install
+    $ pip install -e .
 
 In either case, the plugin will automatically be registered for use with ``pytest``.
 
