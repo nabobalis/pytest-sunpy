@@ -2,7 +2,7 @@
 pytest-sunpy
 ============
 
-This is a meta-package that pulls in the dependencies that are used by `SunPy`_.
+This is a meta-package that pulls in the dependencies that are used by `SunPy`_'s test suite.
 
 .. _SunPy: https://sunpy.org/
 
