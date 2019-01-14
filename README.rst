@@ -2,8 +2,7 @@
 pytest-sunpy
 ============
 
-This is a meta-package that pulls in the dependencies that are used by
-`SunPy`_.
+This is a meta-package that pulls in the dependencies that are used by `SunPy`_.
 
 .. _SunPy: https://sunpy.org/
 
@@ -22,6 +21,7 @@ The following dependencies are installed by this package:
 * The `pytest-cov`_ a ``pytest`` plugin that produces coverage reports.
 * The `pytest-mock`_ a ``pytest`` plugin that is a thin-wrapper around the mock package for easier use with py.test.
 * The `pytest-rerunfailures`_ a ``pytest`` plugin that re-runs failed tests up to -n times to eliminate flakey failures.
+* The `pytest-xdist`_ a ``pytest`` plugin that allows parallel test processes.
 
 .. _pytest: https://docs.pytest.org/en/latest/
 .. _pytest-astropy: https://github.com/astropy/pytest-astropy
@@ -33,6 +33,7 @@ The following dependencies are installed by this package:
 .. _pytest-cov: https://pypi.org/project/pytest-cov/
 .. _pytest-mock: https://github.com/pytest-dev/pytest-mock
 .. _pytest-rerunfailures: https://github.com/pytest-dev/pytest-rerunfailures
+.. _pytest-xdist: https://pypi.org/project/pytest-xdist/
 
 Installation
 ------------
@@ -41,15 +42,13 @@ The ``pytest-sunpy`` plugin can be installed using ``pip``::
 
     $ pip install pytest-sunpy
 
-It is also possible to install the latest development version from the source
-repository::
+It is also possible to install the latest development version from the source repository::
 
     $ git clone https://github.com/sunpy/pytest-sunpy
     $ cd pytest-sunpy
     $ python ./setup.py install
 
-In either case, the plugin will automatically be registered for use with
-``pytest``.
+In either case, the plugin will automatically be registered for use with ``pytest``.
 
 Development Status
 ------------------
